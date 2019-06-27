@@ -1,0 +1,24 @@
+[package]
+name = "kbdgen-init"
+version = "0.1.0"
+authors = ["Brendan Molloy <brendan@bbqsrc.net>"]
+edition = "2018"
+
+[dependencies]
+git2 = "0.9.1"
+serde = "1.0.93"
+serde_derive = "1.0.93"
+serde-xml-rs = "0.3.1"
+directories = "2.0.1"
+dialoguer = "0.4.0"
+globwalk = "0.7"
+language-tags = "0.2.2"
+skim = "0.6.8"
+console = "0.7.7"
+serde_yaml = "*"
+strum = "*"
+strum_macros = "*"
+
+[dependencies.pyo3]
+version = "0.7.0"
+features = ["extension-module"]
